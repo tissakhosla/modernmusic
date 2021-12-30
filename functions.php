@@ -105,7 +105,7 @@ function tk2021_code_init()
         'menu_name' => _x('Code', 'admin menu', 'tk2021-textdomain') ,
         'name_admin_bar' => _x('Code', 'add new on admin bar', 'tk2021-textdomain') ,
         'add_new' => __('Add New', 'resource', 'tk2021-textdomain') ,
-        'add_new_item' => __('Add New Code', 'tk2021-textdomain') ,
+        'add_new_item' => __('Add New Code Project', 'tk2021-textdomain') ,
         'new_item' => __('New Code', 'tk2021-textdomain') ,
         'edit_item' => __('Edit Code', 'tk2021-textdomain') ,
         'view_item' => __('View Code', 'tk2021-textdomain') ,
