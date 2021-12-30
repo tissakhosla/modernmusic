@@ -1,12 +1,16 @@
+<?php get_header(); ?>
+
+<hr/>
+<p>index.php</p>
+<hr/>
+
 <?php
-
-get_header();
-
-wp_title();
-
-while (have_posts()) : 
-    the_post();
-endwhile;
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+		the_content();
+	} // end while
+} // end if
 
 get_footer();
 
