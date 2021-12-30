@@ -1,0 +1,38 @@
+/*
+Theme Name: Theme for Musicians
+Author: Tissa Khosla
+Description: The beginning of something new.
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+
+a.skip-main,
+a.skip-nav {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+a.skip-main:focus,
+a.skip-main:active,
+a.skip-nav:focus,
+a.skip-nav:active {
+    left: auto;
+    top: auto;
+    width: max-content;
+    height: auto;
+    overflow: auto;
+    margin: 10px 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 999;
+}
