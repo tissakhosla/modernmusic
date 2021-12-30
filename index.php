@@ -8,7 +8,7 @@
 if ( have_posts() ) {
 	while ( have_posts() ) {
 		the_post(); 
-		the_content();
+		?><a href="<?php the_permalink();?>"><h3> <?php the_title(); ?></h3></a><?php
 	} // end while
 } // end if
 

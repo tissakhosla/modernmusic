@@ -15,19 +15,16 @@
     <header class="header__container">
         <a class="header__logo-anchor" href="/">
             <p>&lt&#9833;&#9833;&#9833;&#9833;/&gt</p>
-            <p><?php echo get_bloginfo('name') ?></p>
         </a>
         <?php 
             wp_nav_menu(
                 array(
-                    'theme_location' => 'Main Navigation',
-                    'items_wrap' => '<ul class="Nav__ul">%3$s</ul>', //what is %3$s
-                    'before' => '<div class="Nav__anchor-p-container"><p>',
-                    'after' => '</p></div>',
+                    'theme_location' => 'Main Navigation'
                 )
             ) 
         ?>
+    </header>
+    <hr>
     <!-- end header MODULE -->
-    
     <!-- Begin main content MODULE - closes at footer.php -->
     <div id="main" tabindex="-1" class="Main-Content">

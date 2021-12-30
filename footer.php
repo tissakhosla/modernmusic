@@ -2,7 +2,8 @@
         <!-- End main content module - opens at header.php -->
         <!-- Begin Modules Footer -->
         <footer class="footer__container">
-            <p>Here's the footer</p>
+            <hr>
+            <?php bloginfo(); ?>
         </footer>
         <?php wp_footer(); ?>
     </body>
